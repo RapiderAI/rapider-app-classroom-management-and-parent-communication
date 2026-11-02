@@ -4,8 +4,8 @@
   "appName": "Rapider Classroom Management & Parent Communication",
   "repository": "",
   "version": "1.0.0",
-  "lastBuildTimestamp": "2026-11-02T09:22:21.066Z",
-  "lastCommit": "c416200",
+  "lastBuildTimestamp": "2026-11-02T09:24:28.630Z",
+  "lastCommit": "3e60f30",
   "summary": {
     "status": "qa_passed",
     "complianceRate": 100,
@@ -18,147 +18,147 @@
     "failedQaPasses": 0,
     "e2eSuitesCount": 0,
     "e2ePassedCount": 0,
-    "lastFullAudit": "2026-11-02T09:22:21.066Z",
+    "lastFullAudit": "2026-11-02T09:24:28.630Z",
     "lastE2ERun": null
   },
   "qaPasses": {
     "pass-01-routing": {
       "name": "pass-01-routing",
       "status": "passed",
-      "lastRun": "2026-11-02T09:22:21.066Z",
+      "lastRun": "2026-11-02T09:24:28.630Z",
       "pagesCovered": 13,
       "issuesFound": 0
     },
     "pass-02-swr": {
       "name": "pass-02-swr",
       "status": "passed",
-      "lastRun": "2026-11-02T09:22:21.066Z",
+      "lastRun": "2026-11-02T09:24:28.630Z",
       "pagesCovered": 13,
       "issuesFound": 0
     },
     "pass-03-data-models": {
       "name": "pass-03-data-models",
       "status": "passed",
-      "lastRun": "2026-11-02T09:22:21.066Z",
+      "lastRun": "2026-11-02T09:24:28.630Z",
       "pagesCovered": 13,
       "issuesFound": 0
     },
     "pass-04-modals": {
       "name": "pass-04-modals",
       "status": "passed",
-      "lastRun": "2026-11-02T09:22:21.066Z",
+      "lastRun": "2026-11-02T09:24:28.630Z",
       "pagesCovered": 13,
       "issuesFound": 0
     },
     "pass-05-drawers": {
       "name": "pass-05-drawers",
       "status": "passed",
-      "lastRun": "2026-11-02T09:22:21.066Z",
+      "lastRun": "2026-11-02T09:24:28.630Z",
       "pagesCovered": 13,
       "issuesFound": 0
     },
     "pass-06-responsive": {
       "name": "pass-06-responsive",
       "status": "passed",
-      "lastRun": "2026-11-02T09:22:21.066Z",
+      "lastRun": "2026-11-02T09:24:28.630Z",
       "pagesCovered": 13,
       "issuesFound": 0
     },
     "pass-07-themes": {
       "name": "pass-07-themes",
       "status": "passed",
-      "lastRun": "2026-11-02T09:22:21.066Z",
+      "lastRun": "2026-11-02T09:24:28.630Z",
       "pagesCovered": 13,
       "issuesFound": 0
     },
     "pass-08-notifications": {
       "name": "pass-08-notifications",
       "status": "passed",
-      "lastRun": "2026-11-02T09:22:21.066Z",
+      "lastRun": "2026-11-02T09:24:28.630Z",
       "pagesCovered": 13,
       "issuesFound": 0
     },
     "pass-09-payloads": {
       "name": "pass-09-payloads",
       "status": "passed",
-      "lastRun": "2026-11-02T09:22:21.066Z",
+      "lastRun": "2026-11-02T09:24:28.630Z",
       "pagesCovered": 13,
       "issuesFound": 0
     },
     "pass-10-components": {
       "name": "pass-10-components",
       "status": "passed",
-      "lastRun": "2026-11-02T09:22:21.066Z",
+      "lastRun": "2026-11-02T09:24:28.630Z",
       "pagesCovered": 13,
       "issuesFound": 0
     },
     "pass-11-e2e-expectations": {
       "name": "pass-11-e2e-expectations",
       "status": "passed",
-      "lastRun": "2026-11-02T09:22:21.066Z",
+      "lastRun": "2026-11-02T09:24:28.630Z",
       "pagesCovered": 13,
       "issuesFound": 0
     },
     "pass-12-asset-externalization": {
       "name": "pass-12-asset-externalization",
       "status": "passed",
-      "lastRun": "2026-11-02T09:22:21.066Z",
+      "lastRun": "2026-11-02T09:24:28.630Z",
       "pagesCovered": 13,
       "issuesFound": 0
     },
     "pass-13-manifest-sync": {
       "name": "pass-13-manifest-sync",
       "status": "passed",
-      "lastRun": "2026-11-02T09:22:21.066Z",
+      "lastRun": "2026-11-02T09:24:28.630Z",
       "pagesCovered": 13,
       "issuesFound": 0
     },
     "pass-14-ui-states": {
       "name": "pass-14-ui-states",
       "status": "passed",
-      "lastRun": "2026-11-02T09:22:21.066Z",
+      "lastRun": "2026-11-02T09:24:28.630Z",
       "pagesCovered": 13,
       "issuesFound": 0
     },
     "pass-15-security": {
       "name": "pass-15-security",
       "status": "passed",
-      "lastRun": "2026-11-02T09:22:21.066Z",
+      "lastRun": "2026-11-02T09:24:28.630Z",
       "pagesCovered": 13,
       "issuesFound": 0
     },
     "pass-16-accessibility": {
       "name": "pass-16-accessibility",
       "status": "passed",
-      "lastRun": "2026-11-02T09:22:21.066Z",
+      "lastRun": "2026-11-02T09:24:28.630Z",
       "pagesCovered": 13,
       "issuesFound": 0
     },
     "pass-17-input-formatting": {
       "name": "pass-17-input-formatting",
       "status": "passed",
-      "lastRun": "2026-11-02T09:22:21.066Z",
+      "lastRun": "2026-11-02T09:24:28.630Z",
       "pagesCovered": 13,
       "issuesFound": 0
     },
     "pass-18-kanban-list-views": {
       "name": "pass-18-kanban-list-views",
       "status": "passed",
-      "lastRun": "2026-11-02T09:22:21.066Z",
+      "lastRun": "2026-11-02T09:24:28.630Z",
       "pagesCovered": 13,
       "issuesFound": 0
     },
     "pass-19-ui-best-practices": {
       "name": "pass-19-ui-best-practices",
       "status": "passed",
-      "lastRun": "2026-11-02T09:22:21.066Z",
+      "lastRun": "2026-11-02T09:24:28.630Z",
       "pagesCovered": 13,
       "issuesFound": 0
     },
     "pass-20-search-filters": {
       "name": "pass-20-search-filters",
       "status": "passed",
-      "lastRun": "2026-11-02T09:22:21.066Z",
+      "lastRun": "2026-11-02T09:24:28.630Z",
       "pagesCovered": 13,
       "issuesFound": 0
     }
@@ -168,8 +168,8 @@
       "pageName": "Classroom & PBIS Live",
       "route": "classroom-pulse",
       "fileHash": "sha256:38d69798b0281331dceb566c5e7a0570cf0fa81346ca361448907e58ee352563",
-      "lastModified": "2026-11-02T09:22:20.945Z",
-      "lastTested": "2026-11-02T09:22:21.066Z",
+      "lastModified": "2026-11-02T09:24:28.494Z",
+      "lastTested": "2026-11-02T09:24:28.630Z",
       "status": "passed",
       "metrics": {
         "buttonsTotal": 8,
@@ -189,8 +189,8 @@
       "pageName": "Student Portfolios",
       "route": "portfolio-moderation",
       "fileHash": "sha256:9976d29285bdf52399d72c5112dbdb9cf843d9f0be11cf1e607fc72bf512d2bc",
-      "lastModified": "2026-11-02T09:22:20.946Z",
-      "lastTested": "2026-11-02T09:22:21.066Z",
+      "lastModified": "2026-11-02T09:24:28.494Z",
+      "lastTested": "2026-11-02T09:24:28.630Z",
       "status": "passed",
       "metrics": {
         "buttonsTotal": 6,
@@ -210,8 +210,8 @@
       "pageName": "Behavior & SEL History",
       "route": "behavior-ledger",
       "fileHash": "sha256:f6a7048745ef72a72ef697fc9bee5df96777aa23eeeaa77b8c968ac94cc6dba0",
-      "lastModified": "2026-11-02T09:22:20.946Z",
-      "lastTested": "2026-11-02T09:22:21.066Z",
+      "lastModified": "2026-11-02T09:24:28.494Z",
+      "lastTested": "2026-11-02T09:24:28.630Z",
       "status": "passed",
       "metrics": {
         "buttonsTotal": 5,
@@ -231,8 +231,8 @@
       "pageName": "Class & School Stories",
       "route": "stories-broadcasts",
       "fileHash": "sha256:bb293258c11a0db4e8fbb22176d3fd40b22e6445e0978a841c1f697fbbb060af",
-      "lastModified": "2026-11-02T09:22:20.947Z",
-      "lastTested": "2026-11-02T09:22:21.066Z",
+      "lastModified": "2026-11-02T09:24:28.495Z",
+      "lastTested": "2026-11-02T09:24:28.630Z",
       "status": "passed",
       "metrics": {
         "buttonsTotal": 5,
@@ -252,8 +252,8 @@
       "pageName": "Two-Way Family Inbox",
       "route": "family-messages",
       "fileHash": "sha256:8313a490c6517096c39397caef996c0da085b364a56e08d901eb992939992522",
-      "lastModified": "2026-11-02T09:22:20.948Z",
-      "lastTested": "2026-11-02T09:22:21.066Z",
+      "lastModified": "2026-11-02T09:24:28.495Z",
+      "lastTested": "2026-11-02T09:24:28.630Z",
       "status": "passed",
       "metrics": {
         "buttonsTotal": 8,
@@ -273,8 +273,8 @@
       "pageName": "Slips, Sign-Ups & Conferences",
       "route": "slips-conferences",
       "fileHash": "sha256:77b5e0e0d379308e69dd9d4200da10e13980faa01a30f561d8d698989ea890d8",
-      "lastModified": "2026-11-02T09:22:20.948Z",
-      "lastTested": "2026-11-02T09:22:21.066Z",
+      "lastModified": "2026-11-02T09:24:28.495Z",
+      "lastTested": "2026-11-02T09:24:28.630Z",
       "status": "passed",
       "metrics": {
         "buttonsTotal": 5,
@@ -294,8 +294,8 @@
       "pageName": "Walk-the-Halls Analytics",
       "route": "engagement-analytics",
       "fileHash": "sha256:416d3081f0118ed60cc40abafc3b914d9f10ffffb54549dc5d72f7ab76b5afa0",
-      "lastModified": "2026-11-02T09:22:20.949Z",
-      "lastTested": "2026-11-02T09:22:21.066Z",
+      "lastModified": "2026-11-02T09:24:28.496Z",
+      "lastTested": "2026-11-02T09:24:28.630Z",
       "status": "passed",
       "metrics": {
         "buttonsTotal": 6,
@@ -315,8 +315,8 @@
       "pageName": "PBIS Rubrics & Templates",
       "route": "rubrics-templates",
       "fileHash": "sha256:af35c47b1bfd54454c4a318c077ee7a076f31e43fbbc32335875918516957df6",
-      "lastModified": "2026-11-02T09:22:20.949Z",
-      "lastTested": "2026-11-02T09:22:21.066Z",
+      "lastModified": "2026-11-02T09:24:28.496Z",
+      "lastTested": "2026-11-02T09:24:28.630Z",
       "status": "passed",
       "metrics": {
         "buttonsTotal": 5,
@@ -336,8 +336,8 @@
       "pageName": "Quiet Hours & Safety Audit",
       "route": "comm-safety-policies",
       "fileHash": "sha256:c6161e6f0db16ab74a37792dcd19e81a9e2742ef1fddf4b159e143951a9ea86d",
-      "lastModified": "2026-11-02T09:22:20.950Z",
-      "lastTested": "2026-11-02T09:22:21.066Z",
+      "lastModified": "2026-11-02T09:24:28.496Z",
+      "lastTested": "2026-11-02T09:24:28.630Z",
       "status": "passed",
       "metrics": {
         "buttonsTotal": 6,
@@ -357,8 +357,8 @@
       "pageName": "Student Portfolio & Family View",
       "route": "student-engagement-detail",
       "fileHash": "sha256:0de429c65f7d94cf16a0c874b6edebfb8e313d289d72ecda47f7085c0f761122",
-      "lastModified": "2026-11-02T09:22:20.950Z",
-      "lastTested": "2026-11-02T09:22:21.066Z",
+      "lastModified": "2026-11-02T09:24:28.496Z",
+      "lastTested": "2026-11-02T09:24:28.630Z",
       "status": "passed",
       "metrics": {
         "buttonsTotal": 5,
@@ -378,8 +378,8 @@
       "pageName": "Permission Slip & Sign-Up Roster",
       "route": "permission-slip-detail",
       "fileHash": "sha256:1e4a9162fe709ca0ce510d2d93fa096116fc97e2ab913cd243ab95dc55ec8d5b",
-      "lastModified": "2026-11-02T09:22:20.951Z",
-      "lastTested": "2026-11-02T09:22:21.066Z",
+      "lastModified": "2026-11-02T09:24:28.496Z",
+      "lastTested": "2026-11-02T09:24:28.630Z",
       "status": "passed",
       "metrics": {
         "buttonsTotal": 6,
@@ -399,8 +399,8 @@
       "pageName": "Publish Story / Permission Slip",
       "route": "broadcast-slip-drawer",
       "fileHash": "sha256:71a4ce577d0fab06f73d14f7287714315b8a6addb366ce434d96e517b86495d1",
-      "lastModified": "2026-11-02T09:22:20.952Z",
-      "lastTested": "2026-11-02T09:22:21.066Z",
+      "lastModified": "2026-11-02T09:24:28.497Z",
+      "lastTested": "2026-11-02T09:24:28.630Z",
       "status": "passed",
       "metrics": {
         "buttonsTotal": 9,
@@ -426,8 +426,8 @@
       "pageName": "Submit Artifact / Conference Block",
       "route": "portfolio-conference-drawer",
       "fileHash": "sha256:1b4da1f397338fc7ec84f503d809a9c203031cd6b17305a1ccfab6cb9b01eb7a",
-      "lastModified": "2026-11-02T09:22:20.953Z",
-      "lastTested": "2026-11-02T09:22:21.066Z",
+      "lastModified": "2026-11-02T09:24:28.497Z",
+      "lastTested": "2026-11-02T09:24:28.630Z",
       "status": "passed",
       "metrics": {
         "buttonsTotal": 8,
@@ -457,6 +457,16 @@
     "suites": []
   },
   "history": [
+    {
+      "timestamp": "2026-11-02T09:24:28.630Z",
+      "action": "qa_full_audit",
+      "commit": "3e60f30",
+      "complianceRate": 100,
+      "pagesAudited": 13,
+      "status": "passed",
+      "agent": "Antigravity",
+      "details": "13/13 pages passed. Completed 20/20 QA passes."
+    },
     {
       "timestamp": "2026-11-02T09:22:21.066Z",
       "action": "qa_full_audit",
