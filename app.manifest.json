@@ -7,7 +7,7 @@
     "title": "Rapider Education Suite"
   },
   "type": "App",
-  "description": "1.2 Target Personas & Progressive Disclosure - SME Fast-Path Defaults (Elementary/Secondary Teachers, Preschools, Enrichment Academies): Open any 161 EduCourseSection roster and immediately award 1-tap PBIS praise points, post a Class Story photo update, approve student portfolio submissions, send auto-translated messages with default 5:30 PM Quiet Hours, and publish 15-minute conference slots in under three minutes. - Enterprise Progressive Disclosure (K-12 School Districts, Principals, Family ",
+  "description": "Unifies PBIS classroom culture, moderated student digital portfolios, two-way 100+ language masked family messaging with Quiet Hours, digital field-trip permission slips, and parent-teacher conference scheduling.",
   "isPublic": true,
   "tags": [
     "edu",
@@ -3630,6 +3630,38 @@
           "isHidden": false,
           "isArray": false,
           "default": false
+        },
+        {
+          "name": "rubricCode",
+          "type": "string",
+          "description": "rubricCode attribute for EduBehaviorRubric",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "lrnSkillName",
+          "type": "string",
+          "description": "lrnSkillName attribute for EduBehaviorRubric",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "campusName",
+          "type": "string",
+          "description": "campusName attribute for EduBehaviorRubric",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "usageCountThisTerm",
+          "type": "number",
+          "description": "usageCountThisTerm attribute for EduBehaviorRubric",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
         }
       ],
       "relations": [
@@ -3803,6 +3835,70 @@
           "isHidden": false,
           "isArray": false,
           "default": false
+        },
+        {
+          "name": "eventCode",
+          "type": "string",
+          "description": "eventCode attribute for EduBehaviorEvent",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "studentId",
+          "type": "string",
+          "description": "studentId attribute for EduBehaviorEvent",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "studentName",
+          "type": "string",
+          "description": "studentName attribute for EduBehaviorEvent",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "gradeLevel",
+          "type": "string",
+          "description": "gradeLevel attribute for EduBehaviorEvent",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "sectionName",
+          "type": "string",
+          "description": "sectionName attribute for EduBehaviorEvent",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "rubricName",
+          "type": "string",
+          "description": "rubricName attribute for EduBehaviorEvent",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "guardianLanguage",
+          "type": "string",
+          "description": "guardianLanguage attribute for EduBehaviorEvent",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "recordedByTeacher",
+          "type": "string",
+          "description": "recordedByTeacher attribute for EduBehaviorEvent",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
         }
       ],
       "relations": [
@@ -3984,6 +4080,62 @@
           "isHidden": false,
           "isArray": false,
           "default": false
+        },
+        {
+          "name": "artifactCode",
+          "type": "string",
+          "description": "artifactCode attribute for EduPortfolioArtifact",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "studentId",
+          "type": "string",
+          "description": "studentId attribute for EduPortfolioArtifact",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "studentName",
+          "type": "string",
+          "description": "studentName attribute for EduPortfolioArtifact",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "sectionName",
+          "type": "string",
+          "description": "sectionName attribute for EduPortfolioArtifact",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "skillTags",
+          "type": "string",
+          "description": "skillTags attribute for EduPortfolioArtifact",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "ferpaWarningNote",
+          "type": "string",
+          "description": "ferpaWarningNote attribute for EduPortfolioArtifact",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "familyReactionCount",
+          "type": "number",
+          "description": "familyReactionCount attribute for EduPortfolioArtifact",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
         }
       ],
       "relations": [
@@ -4181,6 +4333,46 @@
           "isHidden": false,
           "isArray": false,
           "default": false
+        },
+        {
+          "name": "broadcastCode",
+          "type": "string",
+          "description": "broadcastCode attribute for EduClassroomBroadcast",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "targetName",
+          "type": "string",
+          "description": "targetName attribute for EduClassroomBroadcast",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "translatedLanguages",
+          "type": "string",
+          "description": "translatedLanguages attribute for EduClassroomBroadcast",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "authorName",
+          "type": "string",
+          "description": "authorName attribute for EduClassroomBroadcast",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "custodyExcludedCount",
+          "type": "number",
+          "description": "custodyExcludedCount attribute for EduClassroomBroadcast",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
         }
       ],
       "relations": [
@@ -4379,6 +4571,62 @@
           "isHidden": false,
           "isArray": false,
           "default": false
+        },
+        {
+          "name": "slipCode",
+          "type": "string",
+          "description": "slipCode attribute for EduPermissionSlip",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "sectionName",
+          "type": "string",
+          "description": "sectionName attribute for EduPermissionSlip",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "totalStudentsCount",
+          "type": "number",
+          "description": "totalStudentsCount attribute for EduPermissionSlip",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "approvedCount",
+          "type": "number",
+          "description": "approvedCount attribute for EduPermissionSlip",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "pendingCount",
+          "type": "number",
+          "description": "pendingCount attribute for EduPermissionSlip",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "volunteerSlotsFilled",
+          "type": "string",
+          "description": "volunteerSlotsFilled attribute for EduPermissionSlip",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "coordinatorPhone",
+          "type": "string",
+          "description": "coordinatorPhone attribute for EduPermissionSlip",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
         }
       ],
       "relations": [
@@ -4552,6 +4800,62 @@
           "isHidden": false,
           "isArray": false,
           "default": false
+        },
+        {
+          "name": "permissionSlipId",
+          "type": "string",
+          "description": "permissionSlipId attribute for EduGuardianSlipResponse",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "slipTitle",
+          "type": "string",
+          "description": "slipTitle attribute for EduGuardianSlipResponse",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "studentId",
+          "type": "string",
+          "description": "studentId attribute for EduGuardianSlipResponse",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "studentName",
+          "type": "string",
+          "description": "studentName attribute for EduGuardianSlipResponse",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "guardianName",
+          "type": "string",
+          "description": "guardianName attribute for EduGuardianSlipResponse",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "custodyVerified",
+          "type": "boolean",
+          "description": "custodyVerified attribute for EduGuardianSlipResponse",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "finInvoiceCode",
+          "type": "string",
+          "description": "finInvoiceCode attribute for EduGuardianSlipResponse",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
         }
       ],
       "relations": [
@@ -4708,6 +5012,46 @@
           "isHidden": false,
           "isArray": false,
           "default": false
+        },
+        {
+          "name": "slotCode",
+          "type": "string",
+          "description": "slotCode attribute for EduConferenceSlot",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "sectionName",
+          "type": "string",
+          "description": "sectionName attribute for EduConferenceSlot",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "hostTeacherName",
+          "type": "string",
+          "description": "hostTeacherName attribute for EduConferenceSlot",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "bookedStudentName",
+          "type": "string",
+          "description": "bookedStudentName attribute for EduConferenceSlot",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "bookedGuardianName",
+          "type": "string",
+          "description": "bookedGuardianName attribute for EduConferenceSlot",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
         }
       ],
       "relations": [
@@ -4882,6 +5226,30 @@
           "isHidden": false,
           "isArray": false,
           "default": false
+        },
+        {
+          "name": "policyCode",
+          "type": "string",
+          "description": "policyCode attribute for EduCommPolicy",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "campusName",
+          "type": "string",
+          "description": "campusName attribute for EduCommPolicy",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
+        },
+        {
+          "name": "custodyPreFlightGate",
+          "type": "string",
+          "description": "custodyPreFlightGate attribute for EduCommPolicy",
+          "isRequired": false,
+          "isHidden": false,
+          "isArray": false
         }
       ],
       "relations": [
@@ -4900,147 +5268,186 @@
   ],
   "webPages": [
     {
-      "name": "Classroom & PBIS Live",
       "route": "classroom-pulse",
-      "htmlFilePath": "pages/classroom-pulse/classroom-pulse.html",
-      "title": "Classroom & PBIS Live",
+      "name": "Classroom & PBIS Live",
+      "pageTitle": "Classroom & PBIS Live",
+      "title": "Classroom",
       "group": "Classroom",
-      "icon": "fas fa-school",
+      "icon": "fas fa-chalkboard-teacher",
       "displayInMenu": true,
+      "displayOnMenu": true,
       "order": 1,
-      "developmentDetails": "Section selector (findSWR), 1-tap PBIS student/group tile grid (EduBehaviorEvent), SEL check-in summary, and projection toolkit (Randomizer, Timer, Group Maker)."
+      "description": "Live classroom section roster with 1-tap PBIS positive praise tiles, SEL Reflect check-ins, and projection toolkit (Random Picker, Focus Timer, Group Builder).",
+      "htmlFilePath": "pages/classroom-pulse/classroom-pulse.html",
+      "type": "AppPage"
     },
     {
-      "name": "Student Portfolios",
       "route": "portfolio-moderation",
-      "htmlFilePath": "pages/portfolio-moderation/portfolio-moderation.html",
-      "title": "Student Portfolios",
+      "name": "Student Portfolios",
+      "pageTitle": "Student Portfolios",
+      "title": "Classroom",
       "group": "Classroom",
-      "icon": "fas fa-school",
+      "icon": "fas fa-folder-open",
       "displayInMenu": true,
+      "displayOnMenu": true,
       "order": 2,
-      "developmentDetails": "<rapider-kanban> teacher moderation board (DRAFT -> SUBMITTED_FOR_REVIEW -> NEEDS_REVISION -> PUBLISHED_TO_FAMILY) + list toggle, #activeFilterTagsBar (Section, Skill, Status), FERPA photo warning badges."
+      "description": "Multimodal student digital portfolio showcase and teacher moderation queue (<rapider-kanban>) with competency tags and FERPA photo clearance checks.",
+      "htmlFilePath": "pages/portfolio-moderation/portfolio-moderation.html",
+      "type": "AppPage"
     },
     {
-      "name": "Behavior & SEL History",
       "route": "behavior-ledger",
-      "htmlFilePath": "pages/behavior-ledger/behavior-ledger.html",
-      "title": "Behavior & SEL History",
+      "name": "Behavior & SEL History",
+      "pageTitle": "Behavior & SEL History",
+      "title": "Classroom",
       "group": "Classroom",
-      "icon": "fas fa-school",
+      "icon": "fas fa-heart",
       "displayInMenu": true,
+      "displayOnMenu": true,
       "order": 3,
-      "developmentDetails": "Searchable EduBehaviorEvent log with #activeFilterTagsBar, positive-to-coaching ratio KPIs, clickable Student Name -> student-engagement-detail, icon+text Edit, icon-only Delete, and Escalate to Counselor action."
+      "description": "Searchable PBIS praise, coaching redirection, and private SEL check-in ledger with positive-to-coaching ratio KPIs and counselor escalation.",
+      "htmlFilePath": "pages/behavior-ledger/behavior-ledger.html",
+      "type": "AppPage"
     },
     {
-      "name": "Class & School Stories",
       "route": "stories-broadcasts",
-      "htmlFilePath": "pages/stories-broadcasts/stories-broadcasts.html",
-      "title": "Class & School Stories",
+      "name": "Class & School Stories",
+      "pageTitle": "Class & School Stories",
+      "title": "Family Engagement",
       "group": "Family Engagement",
-      "icon": "fas fa-school",
+      "icon": "fas fa-bullhorn",
       "displayInMenu": true,
+      "displayOnMenu": true,
       "order": 4,
-      "developmentDetails": "Rich feed & EduClassroomBroadcast table showing scope (Class, Grade, Campus), auto-translation badge, read-receipt % (countSWR), and New Broadcast drawer trigger."
+      "description": "Omnichannel Class, Grade, and Campus stories with automatic home-language translation, household read receipts, and custody-restriction filtering.",
+      "htmlFilePath": "pages/stories-broadcasts/stories-broadcasts.html",
+      "type": "AppPage"
     },
     {
-      "name": "Two-Way Family Inbox",
       "route": "family-messages",
-      "htmlFilePath": "pages/family-messages/family-messages.html",
-      "title": "Two-Way Family Inbox",
+      "name": "Two-Way Family Inbox",
+      "pageTitle": "Two-Way Family Inbox",
+      "title": "Family Engagement",
       "group": "Family Engagement",
-      "icon": "fas fa-school",
+      "icon": "fas fa-comments",
       "displayInMenu": true,
+      "displayOnMenu": true,
       "order": 5,
-      "developmentDetails": "Masked educator-guardian projectChannelMessage hub with Quiet Hours status banner, instant language translation toggle, <rapider-phone-input> SMS reach preview, and AI Tone Coach."
+      "description": "Privacy-masked educator-guardian messaging hub with 17:30 Quiet Hours enforcement, dual-language translation, and AI Tone Coach.",
+      "htmlFilePath": "pages/family-messages/family-messages.html",
+      "type": "AppPage"
     },
     {
-      "name": "Slips, Sign-Ups & Conferences",
       "route": "slips-conferences",
-      "htmlFilePath": "pages/slips-conferences/slips-conferences.html",
-      "title": "Slips, Sign-Ups & Conferences",
+      "name": "Slips, Sign-Ups & Conferences",
+      "pageTitle": "Slips, Sign-Ups & Conferences",
+      "title": "Family Engagement",
       "group": "Family Engagement",
-      "icon": "fas fa-school",
+      "icon": "fas fa-file-signature",
       "displayInMenu": true,
+      "displayOnMenu": true,
       "order": 6,
-      "developmentDetails": "Unified manager for EduPermissionSlip consent campaigns (with non-responder nudge button and FIN fee badge) and EduConferenceSlot schedule blocks."
+      "description": "Digital field-trip permission slips with fee/waiver workflows, chaperone volunteer quotas, and atomic parent-teacher conference slot booking.",
+      "htmlFilePath": "pages/slips-conferences/slips-conferences.html",
+      "type": "AppPage"
     },
     {
-      "name": "Walk-the-Halls Analytics",
       "route": "engagement-analytics",
-      "htmlFilePath": "pages/engagement-analytics/engagement-analytics.html",
-      "title": "Walk-the-Halls Analytics",
+      "name": "Walk-the-Halls Analytics",
+      "pageTitle": "Walk-the-Halls Analytics",
+      "title": "Governance",
       "group": "Governance",
-      "icon": "fas fa-school",
+      "icon": "fas fa-chart-bar",
       "displayInMenu": true,
+      "displayOnMenu": true,
       "order": 7,
-      "developmentDetails": "Principal/District dashboard tracking campus PBIS ratios, weekly story reach %, permission-slip completion, and Unreached Households radar (CMP-022)."
+      "description": "Principal & district analytics tracking campus PBIS positivity ratios, story household reach %, permission slip completion, and Unreached Households Radar.",
+      "htmlFilePath": "pages/engagement-analytics/engagement-analytics.html",
+      "type": "AppPage"
     },
     {
-      "name": "PBIS Rubrics & Templates",
       "route": "rubrics-templates",
-      "htmlFilePath": "pages/rubrics-templates/rubrics-templates.html",
-      "title": "PBIS Rubrics & Templates",
+      "name": "PBIS Rubrics & Templates",
+      "pageTitle": "PBIS Rubrics & Templates",
+      "title": "Governance",
       "group": "Governance",
-      "icon": "fas fa-school",
+      "icon": "fas fa-award",
       "displayInMenu": true,
+      "displayOnMenu": true,
       "order": 8,
-      "developmentDetails": "Manage EduBehaviorRubric skill sets (Elementary vs. Secondary display modes) and reusable permission-slip/newsletter templates."
+      "description": "Configure Elementary icon and Secondary badge PBIS rubrics, Decimal128 point weights, competency links, and reusable family communication templates.",
+      "htmlFilePath": "pages/rubrics-templates/rubrics-templates.html",
+      "type": "AppPage"
     },
     {
-      "name": "Quiet Hours & Safety Audit",
       "route": "comm-safety-policies",
-      "htmlFilePath": "pages/comm-safety-policies/comm-safety-policies.html",
-      "title": "Quiet Hours & Safety Audit",
+      "name": "Quiet Hours & Safety Audit",
+      "pageTitle": "Quiet Hours & Safety Audit",
+      "title": "Governance",
       "group": "Governance",
-      "icon": "fas fa-school",
+      "icon": "fas fa-user-shield",
       "displayInMenu": true,
+      "displayOnMenu": true,
       "order": 9,
-      "developmentDetails": "Configure EduCommPolicy Quiet Hours, urgent broadcast override rules, custody/FERPA pre-flight rules, and FOIA/safety message audit exports."
+      "description": "Manage district Quiet Hours schedules, Urgent Safety override governance, FERPA/custody hard gates, safety keyword rules, and 7-year FOIA exports.",
+      "htmlFilePath": "pages/comm-safety-policies/comm-safety-policies.html",
+      "type": "AppPage"
     },
     {
-      "name": "Student Portfolio & Family View",
       "route": "student-engagement-detail",
-      "htmlFilePath": "pages/student-engagement-detail/student-engagement-detail.html",
-      "title": "Student Portfolio & Family View",
-      "group": "(Hidden)",
-      "icon": "fas fa-school",
+      "name": "Student Portfolio & Family View",
+      "pageTitle": "Student Portfolio & Family View",
+      "title": "Hidden",
+      "group": "Hidden",
+      "icon": "fas fa-user-graduate",
       "displayInMenu": false,
+      "displayOnMenu": false,
       "order": 10,
-      "developmentDetails": "Holistic classroom view (#/student-engagement-detail?id=...) showing approved EduPortfolioArtifact showcase, PBIS/SEL timeline, guardian reachability status, AI conference talking points, and Back to list."
+      "description": "Holistic Student 360 classroom view showing approved portfolio showcase, PBIS/SEL timeline, custodial guardian language status, and AI conference talking points.",
+      "htmlFilePath": "pages/student-engagement-detail/student-engagement-detail.html",
+      "type": "AppPage"
     },
     {
-      "name": "Permission Slip & Sign-Up Roster",
       "route": "permission-slip-detail",
-      "htmlFilePath": "pages/permission-slip-detail/permission-slip-detail.html",
-      "title": "Permission Slip & Sign-Up Roster",
-      "group": "(Hidden)",
-      "icon": "fas fa-school",
+      "name": "Permission Slip & Sign-Up Roster",
+      "pageTitle": "Permission Slip & Sign-Up Roster",
+      "title": "Hidden",
+      "group": "Hidden",
+      "icon": "fas fa-clipboard-check",
       "displayInMenu": false,
+      "displayOnMenu": false,
       "order": 11,
-      "developmentDetails": "Detailed EduPermissionSlip tracker (#/permission-slip-detail?id=...) listing per-student EduGuardianSlipResponse status, digital signatures, volunteer slots, FinInvoice payment status, and 1-click \"Remind Pending\"."
+      "description": "Per-student permission slip signature roster, emergency phone verification, volunteer slot claims, trip fee invoice status, and 1-click pending household nudges.",
+      "htmlFilePath": "pages/permission-slip-detail/permission-slip-detail.html",
+      "type": "AppPage"
     },
     {
-      "name": "Publish Story / Permission Slip",
       "route": "broadcast-slip-drawer",
-      "htmlFilePath": "pages/broadcast-slip-drawer/broadcast-slip-drawer.html",
-      "title": "Publish Story / Permission Slip",
-      "group": "(Hidden)",
-      "icon": "fas fa-school",
+      "name": "Publish Story / Permission Slip",
+      "pageTitle": "Publish Story / Permission Slip",
+      "title": "Hidden",
+      "group": "Hidden",
+      "icon": "fas fa-paper-plane",
       "displayInMenu": false,
+      "displayOnMenu": false,
       "order": 12,
-      "developmentDetails": "Sliding drawer to compose EduClassroomBroadcast or EduPermissionSlip with FERPA photo check, AI Sidekick draft helper, Decimal128 trip fee field, finally button reset, and closePageDrawer()."
+      "description": "Sliding drawer to compose a translated Class/Campus Story or digital Permission Slip with AI Sidekick drafting, FERPA photo verification, and trip fee setup.",
+      "htmlFilePath": "pages/broadcast-slip-drawer/broadcast-slip-drawer.html",
+      "type": "AppPage"
     },
     {
-      "name": "Submit Artifact / Conference Block",
       "route": "portfolio-conference-drawer",
-      "htmlFilePath": "pages/portfolio-conference-drawer/portfolio-conference-drawer.html",
-      "title": "Submit Artifact / Conference Block",
-      "group": "(Hidden)",
-      "icon": "fas fa-school",
+      "name": "Submit Artifact / Conference Block",
+      "pageTitle": "Submit Artifact / Conference Block",
+      "title": "Hidden",
+      "group": "Hidden",
+      "icon": "fas fa-upload",
       "displayInMenu": false,
+      "displayOnMenu": false,
       "order": 13,
-      "developmentDetails": "Sliding drawer to upload/review EduPortfolioArtifact (LrnSkillDefinition tags) or generate EduConferenceSlot blocks with closePageDrawer()."
+      "description": "Sliding drawer to upload or moderate a student portfolio artifact with competency tags or generate 15-minute parent-teacher conference time blocks.",
+      "htmlFilePath": "pages/portfolio-conference-drawer/portfolio-conference-drawer.html",
+      "type": "AppPage"
     }
   ],
   "workflows": [],
@@ -5048,147 +5455,186 @@
   "tools": [],
   "pages": [
     {
-      "name": "Classroom & PBIS Live",
       "route": "classroom-pulse",
-      "htmlFilePath": "pages/classroom-pulse/classroom-pulse.html",
-      "title": "Classroom & PBIS Live",
+      "name": "Classroom & PBIS Live",
+      "pageTitle": "Classroom & PBIS Live",
+      "title": "Classroom",
       "group": "Classroom",
-      "icon": "fas fa-school",
+      "icon": "fas fa-chalkboard-teacher",
       "displayInMenu": true,
+      "displayOnMenu": true,
       "order": 1,
-      "developmentDetails": "Section selector (findSWR), 1-tap PBIS student/group tile grid (EduBehaviorEvent), SEL check-in summary, and projection toolkit (Randomizer, Timer, Group Maker)."
+      "description": "Live classroom section roster with 1-tap PBIS positive praise tiles, SEL Reflect check-ins, and projection toolkit (Random Picker, Focus Timer, Group Builder).",
+      "htmlFilePath": "pages/classroom-pulse/classroom-pulse.html",
+      "type": "AppPage"
     },
     {
-      "name": "Student Portfolios",
       "route": "portfolio-moderation",
-      "htmlFilePath": "pages/portfolio-moderation/portfolio-moderation.html",
-      "title": "Student Portfolios",
+      "name": "Student Portfolios",
+      "pageTitle": "Student Portfolios",
+      "title": "Classroom",
       "group": "Classroom",
-      "icon": "fas fa-school",
+      "icon": "fas fa-folder-open",
       "displayInMenu": true,
+      "displayOnMenu": true,
       "order": 2,
-      "developmentDetails": "<rapider-kanban> teacher moderation board (DRAFT -> SUBMITTED_FOR_REVIEW -> NEEDS_REVISION -> PUBLISHED_TO_FAMILY) + list toggle, #activeFilterTagsBar (Section, Skill, Status), FERPA photo warning badges."
+      "description": "Multimodal student digital portfolio showcase and teacher moderation queue (<rapider-kanban>) with competency tags and FERPA photo clearance checks.",
+      "htmlFilePath": "pages/portfolio-moderation/portfolio-moderation.html",
+      "type": "AppPage"
     },
     {
-      "name": "Behavior & SEL History",
       "route": "behavior-ledger",
-      "htmlFilePath": "pages/behavior-ledger/behavior-ledger.html",
-      "title": "Behavior & SEL History",
+      "name": "Behavior & SEL History",
+      "pageTitle": "Behavior & SEL History",
+      "title": "Classroom",
       "group": "Classroom",
-      "icon": "fas fa-school",
+      "icon": "fas fa-heart",
       "displayInMenu": true,
+      "displayOnMenu": true,
       "order": 3,
-      "developmentDetails": "Searchable EduBehaviorEvent log with #activeFilterTagsBar, positive-to-coaching ratio KPIs, clickable Student Name -> student-engagement-detail, icon+text Edit, icon-only Delete, and Escalate to Counselor action."
+      "description": "Searchable PBIS praise, coaching redirection, and private SEL check-in ledger with positive-to-coaching ratio KPIs and counselor escalation.",
+      "htmlFilePath": "pages/behavior-ledger/behavior-ledger.html",
+      "type": "AppPage"
     },
     {
-      "name": "Class & School Stories",
       "route": "stories-broadcasts",
-      "htmlFilePath": "pages/stories-broadcasts/stories-broadcasts.html",
-      "title": "Class & School Stories",
+      "name": "Class & School Stories",
+      "pageTitle": "Class & School Stories",
+      "title": "Family Engagement",
       "group": "Family Engagement",
-      "icon": "fas fa-school",
+      "icon": "fas fa-bullhorn",
       "displayInMenu": true,
+      "displayOnMenu": true,
       "order": 4,
-      "developmentDetails": "Rich feed & EduClassroomBroadcast table showing scope (Class, Grade, Campus), auto-translation badge, read-receipt % (countSWR), and New Broadcast drawer trigger."
+      "description": "Omnichannel Class, Grade, and Campus stories with automatic home-language translation, household read receipts, and custody-restriction filtering.",
+      "htmlFilePath": "pages/stories-broadcasts/stories-broadcasts.html",
+      "type": "AppPage"
     },
     {
-      "name": "Two-Way Family Inbox",
       "route": "family-messages",
-      "htmlFilePath": "pages/family-messages/family-messages.html",
-      "title": "Two-Way Family Inbox",
+      "name": "Two-Way Family Inbox",
+      "pageTitle": "Two-Way Family Inbox",
+      "title": "Family Engagement",
       "group": "Family Engagement",
-      "icon": "fas fa-school",
+      "icon": "fas fa-comments",
       "displayInMenu": true,
+      "displayOnMenu": true,
       "order": 5,
-      "developmentDetails": "Masked educator-guardian projectChannelMessage hub with Quiet Hours status banner, instant language translation toggle, <rapider-phone-input> SMS reach preview, and AI Tone Coach."
+      "description": "Privacy-masked educator-guardian messaging hub with 17:30 Quiet Hours enforcement, dual-language translation, and AI Tone Coach.",
+      "htmlFilePath": "pages/family-messages/family-messages.html",
+      "type": "AppPage"
     },
     {
-      "name": "Slips, Sign-Ups & Conferences",
       "route": "slips-conferences",
-      "htmlFilePath": "pages/slips-conferences/slips-conferences.html",
-      "title": "Slips, Sign-Ups & Conferences",
+      "name": "Slips, Sign-Ups & Conferences",
+      "pageTitle": "Slips, Sign-Ups & Conferences",
+      "title": "Family Engagement",
       "group": "Family Engagement",
-      "icon": "fas fa-school",
+      "icon": "fas fa-file-signature",
       "displayInMenu": true,
+      "displayOnMenu": true,
       "order": 6,
-      "developmentDetails": "Unified manager for EduPermissionSlip consent campaigns (with non-responder nudge button and FIN fee badge) and EduConferenceSlot schedule blocks."
+      "description": "Digital field-trip permission slips with fee/waiver workflows, chaperone volunteer quotas, and atomic parent-teacher conference slot booking.",
+      "htmlFilePath": "pages/slips-conferences/slips-conferences.html",
+      "type": "AppPage"
     },
     {
-      "name": "Walk-the-Halls Analytics",
       "route": "engagement-analytics",
-      "htmlFilePath": "pages/engagement-analytics/engagement-analytics.html",
-      "title": "Walk-the-Halls Analytics",
+      "name": "Walk-the-Halls Analytics",
+      "pageTitle": "Walk-the-Halls Analytics",
+      "title": "Governance",
       "group": "Governance",
-      "icon": "fas fa-school",
+      "icon": "fas fa-chart-bar",
       "displayInMenu": true,
+      "displayOnMenu": true,
       "order": 7,
-      "developmentDetails": "Principal/District dashboard tracking campus PBIS ratios, weekly story reach %, permission-slip completion, and Unreached Households radar (CMP-022)."
+      "description": "Principal & district analytics tracking campus PBIS positivity ratios, story household reach %, permission slip completion, and Unreached Households Radar.",
+      "htmlFilePath": "pages/engagement-analytics/engagement-analytics.html",
+      "type": "AppPage"
     },
     {
-      "name": "PBIS Rubrics & Templates",
       "route": "rubrics-templates",
-      "htmlFilePath": "pages/rubrics-templates/rubrics-templates.html",
-      "title": "PBIS Rubrics & Templates",
+      "name": "PBIS Rubrics & Templates",
+      "pageTitle": "PBIS Rubrics & Templates",
+      "title": "Governance",
       "group": "Governance",
-      "icon": "fas fa-school",
+      "icon": "fas fa-award",
       "displayInMenu": true,
+      "displayOnMenu": true,
       "order": 8,
-      "developmentDetails": "Manage EduBehaviorRubric skill sets (Elementary vs. Secondary display modes) and reusable permission-slip/newsletter templates."
+      "description": "Configure Elementary icon and Secondary badge PBIS rubrics, Decimal128 point weights, competency links, and reusable family communication templates.",
+      "htmlFilePath": "pages/rubrics-templates/rubrics-templates.html",
+      "type": "AppPage"
     },
     {
-      "name": "Quiet Hours & Safety Audit",
       "route": "comm-safety-policies",
-      "htmlFilePath": "pages/comm-safety-policies/comm-safety-policies.html",
-      "title": "Quiet Hours & Safety Audit",
+      "name": "Quiet Hours & Safety Audit",
+      "pageTitle": "Quiet Hours & Safety Audit",
+      "title": "Governance",
       "group": "Governance",
-      "icon": "fas fa-school",
+      "icon": "fas fa-user-shield",
       "displayInMenu": true,
+      "displayOnMenu": true,
       "order": 9,
-      "developmentDetails": "Configure EduCommPolicy Quiet Hours, urgent broadcast override rules, custody/FERPA pre-flight rules, and FOIA/safety message audit exports."
+      "description": "Manage district Quiet Hours schedules, Urgent Safety override governance, FERPA/custody hard gates, safety keyword rules, and 7-year FOIA exports.",
+      "htmlFilePath": "pages/comm-safety-policies/comm-safety-policies.html",
+      "type": "AppPage"
     },
     {
-      "name": "Student Portfolio & Family View",
       "route": "student-engagement-detail",
-      "htmlFilePath": "pages/student-engagement-detail/student-engagement-detail.html",
-      "title": "Student Portfolio & Family View",
-      "group": "(Hidden)",
-      "icon": "fas fa-school",
+      "name": "Student Portfolio & Family View",
+      "pageTitle": "Student Portfolio & Family View",
+      "title": "Hidden",
+      "group": "Hidden",
+      "icon": "fas fa-user-graduate",
       "displayInMenu": false,
+      "displayOnMenu": false,
       "order": 10,
-      "developmentDetails": "Holistic classroom view (#/student-engagement-detail?id=...) showing approved EduPortfolioArtifact showcase, PBIS/SEL timeline, guardian reachability status, AI conference talking points, and Back to list."
+      "description": "Holistic Student 360 classroom view showing approved portfolio showcase, PBIS/SEL timeline, custodial guardian language status, and AI conference talking points.",
+      "htmlFilePath": "pages/student-engagement-detail/student-engagement-detail.html",
+      "type": "AppPage"
     },
     {
-      "name": "Permission Slip & Sign-Up Roster",
       "route": "permission-slip-detail",
-      "htmlFilePath": "pages/permission-slip-detail/permission-slip-detail.html",
-      "title": "Permission Slip & Sign-Up Roster",
-      "group": "(Hidden)",
-      "icon": "fas fa-school",
+      "name": "Permission Slip & Sign-Up Roster",
+      "pageTitle": "Permission Slip & Sign-Up Roster",
+      "title": "Hidden",
+      "group": "Hidden",
+      "icon": "fas fa-clipboard-check",
       "displayInMenu": false,
+      "displayOnMenu": false,
       "order": 11,
-      "developmentDetails": "Detailed EduPermissionSlip tracker (#/permission-slip-detail?id=...) listing per-student EduGuardianSlipResponse status, digital signatures, volunteer slots, FinInvoice payment status, and 1-click \"Remind Pending\"."
+      "description": "Per-student permission slip signature roster, emergency phone verification, volunteer slot claims, trip fee invoice status, and 1-click pending household nudges.",
+      "htmlFilePath": "pages/permission-slip-detail/permission-slip-detail.html",
+      "type": "AppPage"
     },
     {
-      "name": "Publish Story / Permission Slip",
       "route": "broadcast-slip-drawer",
-      "htmlFilePath": "pages/broadcast-slip-drawer/broadcast-slip-drawer.html",
-      "title": "Publish Story / Permission Slip",
-      "group": "(Hidden)",
-      "icon": "fas fa-school",
+      "name": "Publish Story / Permission Slip",
+      "pageTitle": "Publish Story / Permission Slip",
+      "title": "Hidden",
+      "group": "Hidden",
+      "icon": "fas fa-paper-plane",
       "displayInMenu": false,
+      "displayOnMenu": false,
       "order": 12,
-      "developmentDetails": "Sliding drawer to compose EduClassroomBroadcast or EduPermissionSlip with FERPA photo check, AI Sidekick draft helper, Decimal128 trip fee field, finally button reset, and closePageDrawer()."
+      "description": "Sliding drawer to compose a translated Class/Campus Story or digital Permission Slip with AI Sidekick drafting, FERPA photo verification, and trip fee setup.",
+      "htmlFilePath": "pages/broadcast-slip-drawer/broadcast-slip-drawer.html",
+      "type": "AppPage"
     },
     {
-      "name": "Submit Artifact / Conference Block",
       "route": "portfolio-conference-drawer",
-      "htmlFilePath": "pages/portfolio-conference-drawer/portfolio-conference-drawer.html",
-      "title": "Submit Artifact / Conference Block",
-      "group": "(Hidden)",
-      "icon": "fas fa-school",
+      "name": "Submit Artifact / Conference Block",
+      "pageTitle": "Submit Artifact / Conference Block",
+      "title": "Hidden",
+      "group": "Hidden",
+      "icon": "fas fa-upload",
       "displayInMenu": false,
+      "displayOnMenu": false,
       "order": 13,
-      "developmentDetails": "Sliding drawer to upload/review EduPortfolioArtifact (LrnSkillDefinition tags) or generate EduConferenceSlot blocks with closePageDrawer()."
+      "description": "Sliding drawer to upload or moderate a student portfolio artifact with competency tags or generate 15-minute parent-teacher conference time blocks.",
+      "htmlFilePath": "pages/portfolio-conference-drawer/portfolio-conference-drawer.html",
+      "type": "AppPage"
     }
   ]
 }
